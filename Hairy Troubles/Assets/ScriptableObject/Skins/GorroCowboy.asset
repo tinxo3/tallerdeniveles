@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8910b552649ce6e4fade2e04f25902b9, type: 3}
+  m_Name: GorroCowboy
+  m_EditorClassIdentifier: 
+  skinSlot: 1
+  mesh: {fileID: -8953325683739413797, guid: 27e4a6bc6453d224dac7ad178f4970f1, type: 3}
+  material: {fileID: 2100000, guid: 86187bbf1b6e2534e99df859a62cdf6b, type: 2}
+  starsRequired: 5
