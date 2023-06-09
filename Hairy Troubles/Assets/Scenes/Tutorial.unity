@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
+  m_IndirectSpecularColor: {r: 0.17670076, g: 0.22117972, b: 0.30348, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -497,13 +497,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 131861592}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.6977736, y: -0.16043872, z: -0.16503704, w: 0.678332}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.80945, y: 0.80945, z: 0.80945}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 116.66, y: 86.773, z: 86.39}
 --- !u!4 &170031901 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4889054983793148668, guid: a0de665e8de236b4fbe465b01a6d24b9, type: 3}
@@ -3269,7 +3269,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &1333852048
 GameObject:
@@ -3693,12 +3693,24 @@ PrefabInstance:
       objectReference: {fileID: 1890818882}
     - target: {fileID: 3275394712590343055, guid: f1b215a9306c26c4fa64d28abee7014c, type: 3}
       propertyPath: sceneTime
-      value: 60
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3275394712590343055, guid: f1b215a9306c26c4fa64d28abee7014c, type: 3}
+      propertyPath: finalPercentGoal
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 3275394712590343055, guid: f1b215a9306c26c4fa64d28abee7014c, type: 3}
+      propertyPath: firstPercentGoal
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3275394712590343055, guid: f1b215a9306c26c4fa64d28abee7014c, type: 3}
       propertyPath: uiGameController
       value: 
       objectReference: {fileID: 381156143}
+    - target: {fileID: 3275394712590343055, guid: f1b215a9306c26c4fa64d28abee7014c, type: 3}
+      propertyPath: mediumPercentGoal
+      value: 60
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1b215a9306c26c4fa64d28abee7014c, type: 3}
 --- !u!114 &1450018584 stripped
@@ -4489,11 +4501,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1082942266018717630, guid: 2a224eb2d35b6af44b588d45a1d8ecfd, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.7184274
+      value: 3.1462686
       objectReference: {fileID: 0}
     - target: {fileID: 1082942266018717630, guid: 2a224eb2d35b6af44b588d45a1d8ecfd, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.5083
+      value: 3.2306278
+      objectReference: {fileID: 0}
+    - target: {fileID: 1082942266018717630, guid: 2a224eb2d35b6af44b588d45a1d8ecfd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.00000089407
+      objectReference: {fileID: 0}
+    - target: {fileID: 1082942266018717630, guid: 2a224eb2d35b6af44b588d45a1d8ecfd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.00000059605
       objectReference: {fileID: 0}
     - target: {fileID: 5163727967161714395, guid: 2a224eb2d35b6af44b588d45a1d8ecfd, type: 3}
       propertyPath: m_Name
@@ -4582,7 +4602,7 @@ Transform:
   - {fileID: 777563804}
   - {fileID: 1596963373}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1634599712 stripped
 Transform:
